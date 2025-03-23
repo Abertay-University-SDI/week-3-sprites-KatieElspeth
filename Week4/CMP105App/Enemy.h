@@ -13,6 +13,8 @@ public:
 
 private:
 	sf::Texture goomba;
+	sf::Texture beachBall;
+
 	sf::RenderWindow* window;
 };
 

@@ -8,6 +8,8 @@
 #include <iostream>
 #include "Player.h"
 #include "Enemy.h"
+#include "Background.h"
+#include "Cursor.h"
 
 
 class Level : BaseLevel {
@@ -24,6 +26,12 @@ private:
 	GameObject testSprite;
 	sf::Texture texture;
 
+	sf::Texture beachBall;
+
 	Player p;
 	Enemy enemy1;
+	Enemy enemy2;
+	Background levelBackground;
+	Cursor c;
+
 };
